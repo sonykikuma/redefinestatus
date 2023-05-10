@@ -16,9 +16,12 @@ const Culteng = () => {
   return (
     <div>
       <div className="mx-40 px-20 mt-20">
-        <h2 className="text-orange-500 underline1 font-semibold text-lg underline-offset-1">
-          <Link href="#">Large Scale Cultural Engineering</Link>
-        </h2>
+        <Link href="#">
+          {" "}
+          <h2 className="text-orange-500 underline1 font-semibold text-lg underline-offset-1">
+            Large Scale Cultural Engineering
+          </h2>
+        </Link>
         <h3 className="mt-4 text-lg font-semibold">
           Making Altruism Culturally High Status
         </h3>

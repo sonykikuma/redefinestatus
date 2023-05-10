@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 const SimpleSol = () => {
   const content = {
@@ -27,9 +28,11 @@ const SimpleSol = () => {
   return (
     <div>
       <div className="mx-40 px-20 mt-20">
-        <h2 className="text-blue-900 underline1 font-semibold text-lg underline-offset-3 ">
-          <Link href="#">The Simple Solution</Link>
-        </h2>
+        <Link href="#">
+          <h2 className="text-blue-900 underline1 font-semibold text-lg underline-offset-3 ">
+            The Simple Solution
+          </h2>
+        </Link>
         <p className="mt-8 items-center text-md font-semibold">
           {content.content1}
         </p>

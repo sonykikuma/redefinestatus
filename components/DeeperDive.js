@@ -35,9 +35,11 @@ const DeeperDive = () => {
   return (
     <div>
       <div className="mx-40 px-20 mt-20">
-        <h2 className="text-blue-800 underline1 font-semibold text-lg underline-offset-3 ">
-          <Link href="#">A Deeper Dive:</Link>
-        </h2>
+        <Link href="#">
+          <h2 className="text-blue-800 underline1 font-semibold text-lg underline-offset-3 ">
+            A Deeper Dive:
+          </h2>
+        </Link>
         <p className="mt-8 items-center text-md">{content.content1}</p>
         <p className="mt-8 items-center text-md">{content.content2}</p>
         <p className="mt-8 items-center text-md">{content.content3}</p>

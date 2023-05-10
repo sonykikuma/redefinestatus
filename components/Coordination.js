@@ -12,9 +12,12 @@ const Coordination = () => {
   return (
     <div>
       <div className="mx-40 px-20 mt-20">
-        <h2 className="text-black underline1 font-semibold text-lg underline-offset-3 ">
-          <Link href="#">We have a coordination test for humanity.</Link>
-        </h2>
+        <Link href="#">
+          {" "}
+          <h2 className="text-black underline1 font-semibold text-lg underline-offset-3 ">
+            We have a coordination test for humanity.
+          </h2>
+        </Link>
         <p className="mt-8 items-center text-md">{content.content1}</p>
         <blockquote className="mt-10 px-4 bg-gray-50 font-sans italic border-l-4 border-blue-400 text-lg text-black ">
           “If only we could make love what people optimize for over wealth. We
