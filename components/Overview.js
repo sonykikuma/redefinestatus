@@ -15,35 +15,39 @@ const Overview = () => {
 
   return (
     <div className="mx-40 px-20 mt-20">
-      <Link href="#">
+      <Link href="#overview">
         {" "}
         <h2 className="text-red-500 underline1 font-semibold text-lg underline-offset-1">
           Overview Of The Problem
         </h2>
       </Link>
-      <p className="mt-8 items-center text-md">{content.content1}</p>
-      <p className="mt-8 items-center text-md">{content.content2}</p>
-      <p className="mt-8 items-center text-md">{content.content3}</p>
-      <blockquote className="mt-10 px-4 bg-gray-50 font-sans italic border-l-4 border-blue-400 text-black text-lg ">
-        “Over the past hundred years we have increase the global GDP sevenfold,
-        yet wealth inequality continues to skyrocket and luxury spending grows
-        rapidly. In order to change the failure of redistribution of wealth at
-        scale, we must effectively influence culture and help redefine what
-        “status” is in the modern age. This will ultimately change the flow of
-        money in society as the new age of status being helping the world,
-        becomes more prominent. We have failed at building a society which
-        healthily distributes wealth/power. Given society is a collective
-        project we are responsible for, we think this stems from the culture not
-        supporting doing good as the highest form of status. We have more than
-        enough resources, but many people without access to them, and a culture
-        that motivates and glorifies overspending on vanity luxury goods.” -
-        <Link
-          href="https://jackjay.io/"
-          className="underline hover:underline-red-300"
-        >
-          Jack Jay
-        </Link>
-      </blockquote>
+      <div id="overview">
+        <p className="mt-8 items-center text-md">{content.content1}</p>
+        <p className="mt-8 items-center text-md">{content.content2}</p>
+        <p className="mt-8 items-center text-md">{content.content3}</p>
+        <blockquote className="mt-10 px-4 bg-gray-50 font-sans italic border-l-4 border-blue-400 text-black text-lg ">
+          “Over the past hundred years we have increase the global GDP
+          sevenfold, yet wealth inequality continues to skyrocket and luxury
+          spending grows rapidly. In order to change the failure of
+          redistribution of wealth at scale, we must effectively influence
+          culture and help redefine what “status” is in the modern age. This
+          will ultimately change the flow of money in society as the new age of
+          status being helping the world, becomes more prominent. We have failed
+          at building a society which healthily distributes wealth/power. Given
+          society is a collective project we are responsible for, we think this
+          stems from the culture not supporting doing good as the highest form
+          of status. We have more than enough resources, but many people without
+          access to them, and a culture that motivates and glorifies
+          overspending on vanity luxury goods.” -
+          <Link
+            target="_blank"
+            href="https://jackjay.io/"
+            className="underline hover:underline-red-300"
+          >
+            Jack Jay
+          </Link>
+        </blockquote>
+      </div>
     </div>
   );
 };

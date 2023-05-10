@@ -5,7 +5,11 @@ import React from "react";
 const Ribbon = () => {
   return (
     <div className="relative left-0 top-0 cursor-pointer bg-slate-400">
-      <Link href="https://persistventures.com/" className="cursor-pointer">
+      <Link
+        target="_blank"
+        href="https://persistventures.com/"
+        className="cursor-pointer"
+      >
         <FiGithub
           size={30}
           className="mt-2 hover:animate-bounce cursor-pointer"

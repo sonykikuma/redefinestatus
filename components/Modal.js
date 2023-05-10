@@ -49,7 +49,7 @@ function MyModal() {
         <h2>Search anything here..</h2>
         <form>
           <input placeholder="Search" type="text" id="search" />
-          <input type="button " value="Go" onClick={search()} />
+          <input type="button " value="Go" onClick={search(/*a1*/)} />
         </form>
         <button onClick={closeModal}>close</button>
       </Modal>

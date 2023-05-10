@@ -46,49 +46,52 @@ const Inevitable = () => {
   return (
     <div>
       <div className="mx-40 px-20 mt-20">
-        <Link href="#">
+        <Link href="#future">
           <h2 className="text-gray-800 underline font-semibold text-lg underline-offset-3 ">
             Bringing The Inevitable Future Forward
           </h2>
         </Link>
-        <p className="mt-8 items-center text-md">{content.content1}</p>
-        <p className="mt-8 items-center text-md">{content.content2}</p>
-        <p className="mt-8 items-center text-md">{content.content3}</p>
-        <p className="mt-8 items-center text-md ">{content.content4}</p>
-        <p className="mt-8 items-center text-md">
-          While theres no specific data for what defines “Luxury” housing, this
-          is of course a{" "}
-          <Link
-            href="https://www.savills.com/impacts/market-trends/the-total-value-of-global-real-estate.html#:~:text=The"
-            className="underline"
-          >
-            far larger asset class
-          </Link>{" "}
-          which outshines the luxury car and luxury goods market.
-        </p>
-        <p className="mt-8 items-center text-md">{content.content6}</p>
-        <p className="mt-8 items-center text-md">{content.content7}</p>
-        <p className="mt-8 items-center text-md">{content.content8}</p>
-        <p className="mt-8 items-center text-md">{content.content9}</p>
-        <p className="items-center text-md mt-8">Evidence of this:</p>
-        <p className="items-center text-md mt-8">
-          Brands like Gucci are becoming less hip.{" "}
-        </p>
-        <p className="items-center text-md">
-          Designer brands that are in your face are not it.
-        </p>
-        <p className="items-center text-md mt-8">
-          Designer that’s low-key is now the trend.
-        </p>
-        <p className="items-center text-md mt-8">
-          Designer is dialing back as consumers replace spending to these
-          models.
-        </p>
+        <div id="future">
+          <p className="mt-8 items-center text-md">{content.content1}</p>
+          <p className="mt-8 items-center text-md">{content.content2}</p>
+          <p className="mt-8 items-center text-md">{content.content3}</p>
+          <p className="mt-8 items-center text-md ">{content.content4}</p>
+          <p className="mt-8 items-center text-md">
+            While theres no specific data for what defines “Luxury” housing,
+            this is of course a{" "}
+            <Link
+              target="_blank"
+              href="https://www.savills.com/impacts/market-trends/the-total-value-of-global-real-estate.html#:~:text=The"
+              className="underline"
+            >
+              far larger asset class
+            </Link>{" "}
+            which outshines the luxury car and luxury goods market.
+          </p>
+          <p className="mt-8 items-center text-md">{content.content6}</p>
+          <p className="mt-8 items-center text-md">{content.content7}</p>
+          <p className="mt-8 items-center text-md">{content.content8}</p>
+          <p className="mt-8 items-center text-md">{content.content9}</p>
+          <p className="items-center text-md mt-8">Evidence of this:</p>
+          <p className="items-center text-md mt-8">
+            Brands like Gucci are becoming less hip.{" "}
+          </p>
+          <p className="items-center text-md">
+            Designer brands that are in your face are not it.
+          </p>
+          <p className="items-center text-md mt-8">
+            Designer that’s low-key is now the trend.
+          </p>
+          <p className="items-center text-md mt-8">
+            Designer is dialing back as consumers replace spending to these
+            models.
+          </p>
 
-        <p className="mt-8 items-center text-md">{content.content10}</p>
-        <p className="mt-8 items-center text-md">{content.content11}</p>
-        <p className="mt-8 items-center text-md">{content.content12}</p>
-        <p className="mt-8 items-center text-md">{content.content13}</p>
+          <p className="mt-8 items-center text-md">{content.content10}</p>
+          <p className="mt-8 items-center text-md">{content.content11}</p>
+          <p className="mt-8 items-center text-md">{content.content12}</p>
+          <p className="mt-8 items-center text-md">{content.content13}</p>
+        </div>
       </div>
     </div>
   );

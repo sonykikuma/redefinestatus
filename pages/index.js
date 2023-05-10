@@ -10,7 +10,6 @@ import SimpleSol from "../components/SimpleSol";
 import Culteng from "../components/Culteng";
 import Inevitable from "../components/Inevitable";
 import Coordination from "../components/Coordination";
-//import MyModal from "../components/Modal";
 
 export default function Home() {
   return (

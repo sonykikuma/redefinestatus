@@ -9,7 +9,7 @@ const Navbar = () => {
         alt="image"
         width={1500}
         height={40}
-        className="rounded-lg  object-center shadow-xl "
+        className="rounded-lg  object-center shadow-xl hover:scale-110 ease-in duration-500"
       />
     </div>
   );

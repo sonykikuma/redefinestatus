@@ -28,23 +28,30 @@ const SimpleSol = () => {
   return (
     <div>
       <div className="mx-40 px-20 mt-20">
-        <Link href="#">
+        <Link href="#simple">
           <h2 className="text-blue-900 underline1 font-semibold text-lg underline-offset-3 ">
             The Simple Solution
           </h2>
         </Link>
-        <p className="mt-8 items-center text-md font-semibold">
-          {content.content1}
-        </p>
-        <p className="mt-8 items-center text-md">{content.content2}</p>
-        <p className="mt-8 items-center text-md">{content.content3}</p>
-        <p className="mt-8 items-center text-md ">{content.content4}</p>
-        <div className="mt-8 cursor-pointer flex-auto">
-          <img src="/proj2.avif" alt=" " layout="fill" />
+        <div id="simple">
+          <p className="mt-8 items-center text-md font-semibold">
+            {content.content1}
+          </p>
+          <p className="mt-8 items-center text-md">{content.content2}</p>
+          <p className="mt-8 items-center text-md">{content.content3}</p>
+          <p className="mt-8 items-center text-md ">{content.content4}</p>
+          <div className="mt-8 cursor-pointer flex-auto">
+            <img
+              src="/proj2.avif"
+              alt=" "
+              layout="fill"
+              className=" hover:scale-110 ease-in duration-500"
+            />
+          </div>
+          <p className="mt-8 items-center text-md">{content.content5}</p>
+          <p className="mt-8 items-center text-md">{content.content6}</p>
+          <p className="mt-8 items-center text-md">{content.content7}</p>
         </div>
-        <p className="mt-8 items-center text-md">{content.content5}</p>
-        <p className="mt-8 items-center text-md">{content.content6}</p>
-        <p className="mt-8 items-center text-md">{content.content7}</p>
       </div>
     </div>
   );

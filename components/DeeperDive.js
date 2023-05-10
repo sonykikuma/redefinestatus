@@ -35,46 +35,50 @@ const DeeperDive = () => {
   return (
     <div>
       <div className="mx-40 px-20 mt-20">
-        <Link href="#">
+        <Link href="#dive">
           <h2 className="text-blue-800 underline1 font-semibold text-lg underline-offset-3 ">
             A Deeper Dive:
           </h2>
         </Link>
-        <p className="mt-8 items-center text-md">{content.content1}</p>
-        <p className="mt-8 items-center text-md">{content.content2}</p>
-        <p className="mt-8 items-center text-md">{content.content3}</p>
-        <p className="mt-8 items-center text-md font-semibold">
-          {content.content4}
-        </p>
-        <p className="mt-8 items-center text-md">{content.content5}</p>
-        <p className="mt-8 items-center text-md">{content.content6}</p>
-        <p className="mt-8 items-center text-md">{content.content7}</p>
-        <p className="mt-8 items-center text-md">{content.content8}</p>
-        <p className="mt-8 items-center text-md">{content.content9}</p>
+        <div id="dive">
+          <p className="mt-8 items-center text-md">{content.content1}</p>
+          <p className="mt-8 items-center text-md">{content.content2}</p>
+          <p className="mt-8 items-center text-md">{content.content3}</p>
+          <p className="mt-8 items-center text-md font-semibold">
+            {content.content4}
+          </p>
+          <p className="mt-8 items-center text-md">{content.content5}</p>
+          <p className="mt-8 items-center text-md">{content.content6}</p>
+          <p className="mt-8 items-center text-md">{content.content7}</p>
+          <p className="mt-8 items-center text-md">{content.content8}</p>
+          <p className="mt-8 items-center text-md">{content.content9}</p>
 
-        <blockquote className="mt-10 px-4 bg-gray-50 font-sans italic border-l-4 border-blue-400 text-lg text-black ">
-          The personal luxury goods market is projected to grow from USD 257.26
-          billion in 2020 to USD 352.84 billion in 2027
-          <Link
-            href="https://www.fortunebusinessinsights.com/luxury-goods-market-103866"
-            className=" underline"
-          >
+          <blockquote className="mt-10 px-4 bg-gray-50 font-sans italic border-l-4 border-blue-400 text-lg text-black ">
+            The personal luxury goods market is projected to grow from USD
             257.26 billion in 2020 to USD 352.84 billion in 2027
-          </Link>
-        </blockquote>
+            <Link
+              target="_blank"
+              href="https://www.fortunebusinessinsights.com/luxury-goods-market-103866"
+              className=" underline"
+            >
+              257.26 billion in 2020 to USD 352.84 billion in 2027
+            </Link>
+          </blockquote>
 
-        <blockquote className="mt-10 px-4 bg-gray-50 font-sans italic border-l-4 border-blue-400 text-lg font-bold text-black">
-          The Luxury Cars Market size is expected to grow from{" "}
-          <Link
-            href="https://www.fortunebusinessinsights.com/luxury-goods-market-103866"
-            className=" underline"
-          >
-            {" "}
-            USD 449.7 Billion in 2019 to USD 655.0 Billion by 2027; It is
-            estimated to grow at a CAGR of 9.3% from 2020 to 2027.
-          </Link>
-        </blockquote>
-        <p className="mt-8 items-center text-md">{content.content10}</p>
+          <blockquote className="mt-10 px-4 bg-gray-50 font-sans italic border-l-4 border-blue-400 text-lg font-bold text-black">
+            The Luxury Cars Market size is expected to grow from{" "}
+            <Link
+              target="_blank"
+              href="https://www.fortunebusinessinsights.com/luxury-goods-market-103866"
+              className=" underline"
+            >
+              {" "}
+              USD 449.7 Billion in 2019 to USD 655.0 Billion by 2027; It is
+              estimated to grow at a CAGR of 9.3% from 2020 to 2027.
+            </Link>
+          </blockquote>
+          <p className="mt-8 items-center text-md">{content.content10}</p>
+        </div>
       </div>
     </div>
   );

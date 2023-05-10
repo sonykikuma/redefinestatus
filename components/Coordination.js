@@ -12,39 +12,46 @@ const Coordination = () => {
   return (
     <div>
       <div className="mx-40 px-20 mt-20">
-        <Link href="#">
+        <Link href="#coordination">
           {" "}
           <h2 className="text-black underline1 font-semibold text-lg underline-offset-3 ">
             We have a coordination test for humanity.
           </h2>
         </Link>
-        <p className="mt-8 items-center text-md">{content.content1}</p>
-        <blockquote className="mt-10 px-4 bg-gray-50 font-sans italic border-l-4 border-blue-400 text-lg text-black ">
-          “If only we could make love what people optimize for over wealth. We
-          can help society at large realize that is the true way to win the game
-          of life” -
-          <Link href="https://jackjay.io/" className=" underline">
-            Jack Jay
-          </Link>
-        </blockquote>
+        <div id="coordination">
+          <p className="mt-8 items-center text-md">{content.content1}</p>
+          <blockquote className="mt-10 px-4 bg-gray-50 font-sans italic border-l-4 border-blue-400 text-lg text-black ">
+            “If only we could make love what people optimize for over wealth. We
+            can help society at large realize that is the true way to win the
+            game of life” -
+            <Link
+              href="https://jackjay.io/"
+              target="_blank"
+              className=" underline"
+            >
+              Jack Jay
+            </Link>
+          </blockquote>
 
-        <p className="mt-8 items-center text-md">{content.content2}</p>
-        <p className="mt-8 items-center text-md">
-          If we can change whats cool, then love can rule.
-        </p>
-        <p className="mt-8 items-center text-md font-semibold">
-          If you are moved, then let’s move mountains.
-        </p>
-        <p className="mt-8 items-center text-md">
-          Schedule a call
-          <Link
-            href="https://www.calendar.com/not-found/"
-            className="underline font-semibold"
-          >
-            {" "}
-            HERE
-          </Link>
-        </p>
+          <p className="mt-8 items-center text-md">{content.content2}</p>
+          <p className="mt-8 items-center text-md">
+            If we can change whats cool, then love can rule.
+          </p>
+          <p className="mt-8 items-center text-md font-semibold">
+            If you are moved, then let’s move mountains.
+          </p>
+          <p className="mt-8 items-center text-md">
+            Schedule a call
+            <Link
+              href="https://www.calendar.com/"
+              target="_blank"
+              className="underline font-semibold"
+            >
+              {" "}
+              HERE
+            </Link>
+          </p>
+        </div>
       </div>
     </div>
   );
