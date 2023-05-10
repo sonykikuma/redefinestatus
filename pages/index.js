@@ -20,10 +20,10 @@ export default function Home() {
           <h1 className="text-3xl font-semibold text-center text-gray-900">
             Redefine Status
           </h1>
-          <p className="text-md ml-40 px-20 mt-10">
+          <div className="text-md ml-40 px-20 mt-10">
             How We Can Correct
             <span className="font-semibold"> Mankind's LeaderBoard</span>
-          </p>
+          </div>
         </div>
         <Overview />
         <DeeperDive />
