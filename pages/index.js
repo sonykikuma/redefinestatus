@@ -22,7 +22,7 @@ export default function Home() {
           </h1>
           <div className="text-md ml-40 px-20 mt-10">
             How We Can Correct
-            <span className="font-semibold"> Mankind's LeaderBoard</span>
+            <span className="font-semibold"> Mankind&apos;s LeaderBoard</span>
           </div>
         </div>
         <Overview />
