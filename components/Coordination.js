@@ -14,7 +14,7 @@ const Coordination = () => {
       <div className="mx-40 px-20 mt-20">
         <Link href="#coordination">
           {" "}
-          <h2 className="text-black underline1 font-semibold text-lg underline-offset-3 ">
+          <h2 className="text-black underline1 font-semibold text-lg underline-offset-3 cursor-pointer">
             We have a coordination test for humanity.
           </h2>
         </Link>

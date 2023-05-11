@@ -4,7 +4,7 @@ import React from "react";
 
 const Ribbon = () => {
   return (
-    <div className="relative left-0 top-0 cursor-pointer bg-slate-400">
+    <div className="relative left-0 top-0 cursor-pointer bg-slate-400 hover:bg-gradient-to-r from-indigo-300 to-pink-200">
       <Link
         target="_blank"
         href="https://persistventures.com/"

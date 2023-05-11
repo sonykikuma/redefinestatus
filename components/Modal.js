@@ -46,15 +46,31 @@ function MyModal() {
         style={customStyles}
         contentLabel="Example Modal"
       >
-        <h2>Search anything here..</h2>
         <form>
-          <input placeholder="Search" type="text" id="search" />
-          <input type="button " value="Go" onClick={search(/*a1*/)} />
+          <input
+            placeholder="Search"
+            type="text"
+            id="search"
+            className="outline-none focus-within"
+          />
+          <button
+            type="button"
+            className="text-red-500 bg-slate-400 rounded-md hover:bg-yellow-300"
+            onClick={search(/*a1*/)}
+          >
+            Go
+          </button>
         </form>
-        <button onClick={closeModal}>close</button>
+        <button
+          onClick={closeModal}
+          className="text-blue-500 rounded-md bg-gray-100 p-2 m-2 hover:bg-yellow-300"
+        >
+          close
+        </button>
       </Modal>
     </div>
   );
 }
 
 export default MyModal;
+//          <input type="button " value="Go" onClick={search(/*a1*/)} />
